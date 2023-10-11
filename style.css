@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*---------------------- utility class------------------------ */
+.flex-center {
+  display: flex;
+  padding: 0 115px;
+}
+.liststyle {
+  list-style: none;
+}
+.h1 {
+  font-size: 54px;
+}
+.h3 {
+  font-size: 25px;
+}
+.h5 {
+  font-size: 40px;
+}
+.bold {
+  font-weight: bold;
+}
+.gray{
+    color: rgba(21, 20, 57, 0.4) ;
+}
+/* .header_1 start */
+/* -----------------------navigation start  */
+.header_1 nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  height: 40px;
+}
+.header_1 nav ul {
+  list-style: none;
+  width: 320px;
+  font-weight: bold;
+  color: rgba(21, 20, 57, 0.4);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_1 nav ul:last-child {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid rebeccapurple; */
+}
+#sign-btn {
+  background-color: rgba(37, 218, 197, 1);
+  margin-left: 10px;
+  padding: 6px 18px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+/* -----------------------navigation end  */
+
+/* -----------------------hero start  */
+.header_1 main {
+  padding: 80px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header_1 main h1 {
+  color: rgba(30, 14, 98, 1);
+}
+
+.header_1 main p {
+  margin-top: 30px;
+  width: 480px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
+  line-height: 30px;
+}
+/* -----------------------hero end  */
+
+/* -----------------------button start  */
+
+.header_1 .btn {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_1 .btn button {
+  width: 260px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgba(37, 218, 197, 1);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.header_1 .btn p {
+  color: rgba(37, 218, 197, 1);
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+/* .header_1 end */
+
+/* .header_2 start */
+.header_2 {
+  background-color: rgba(47, 24, 147, 1);
+}
+.header_2 nav {
+  justify-content: space-between;
+  color: #ffffff;
+  padding-top: 50px;
+}
+.header_2 nav ul {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#signup-btn {
+  background-color: rgba(72, 43, 231, 1);
+  padding: 6px 18px;
+  border-radius: 20px;
+}
+.header_2 main {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.header_2 main h1 {
+  text-align: center;
+  width: 500px;
+  height: 170px;
+  color: #ffffff;
+}
+.header_2 main p {
+  width: 380px;
+  height: 96px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 20px;
+}
+.header_2 .input-btn {
+  /* width: 380px; */
+  justify-content: center;
+  align-items: center;
+}
+.header_2 .input-btn input {
+  width: 200px;
+  height: 40px;
+  border: 1px solid rgb(150, 145, 145);
+  background-color: rgba(47, 24, 147, 1);
+  margin-right: 10px;
+  padding-left: 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.header_2 .input-btn button{
+    width: 100px;
+    height: 40px;
+    background-color:#25DAC5;
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.header_2 div:last-child{
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(150, 145, 145);
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* .header_2 end */
+
+
+/* .header_3 start */
+
+.header_3 nav{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    border: 1px solid saddlebrown;
+}
+.header_3 .left
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_3 .left,.header_3 ul *{
+    padding: 0px 15px;
+
+}
+.header_3 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#product{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+#header3-btn{
+    background-color: rgba(37, 218, 197, 1);
+    padding:6px 18px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.header_3 main{
+    /* width: 100%; */
+    margin-top: 80px;
+}
+.header3-left{
+    width: 50%;
+}
+.header3-right{
+    width: 50%;
+}
