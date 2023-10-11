@@ -233,3 +233,9 @@
 .header3-right{
     width: 50%;
 }
+.header3-right .input-signin{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+}
