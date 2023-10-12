@@ -193,7 +193,6 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
-    border: 1px solid saddlebrown;
 }
 .header_3 .left
 {
@@ -233,9 +232,68 @@
 .header3-right{
     width: 50%;
 }
-.header3-right .input-signin{
+.header3-right .img{
+    background: url("/img/header_3\ img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:90%;
+    border-radius: 20px;
+    height: 267px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img p{
+    background-color: red;
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img p i{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.header3-right .desc{
+    margin-top: 2rem;
+    width: 50%;
+    line-height: 1.8rem;
+    color: #9f9ea1;
+}
+.input-signin{
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 50%;
+    width: 90%;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
 }
+.input-signin input{
+    height: 50px;
+    width: 90%;
+    border-radius: 25px;
+    border:1px solid #9f9ea1;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.input-signin button{
+    background-color: #25DAC5;
+    height: 50px;
+    width: 91%;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.input-signin p{
+    padding: 10px 0;
+    text-align: center;
+    color: #9f9ea1;
+    font-size: small;
+}
+
