@@ -731,7 +731,7 @@
 .header_9 nav ul{
     display: flex;
     justify-content: space-between;
-    width:60%;
+    width:50%;
     list-style: none;
     align-items: center;
     color: #1E0E62;
@@ -783,3 +783,111 @@
 
 }
 /* .header_9  end  */
+
+
+/* .header_10  start  */
+.header_10{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2F1893;
+}
+.header_10 nav{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 0 115px;
+    padding-top: 50px;
+}
+.header_10 .leftnav{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: start;
+}
+.header_10 .leftnav h3{
+    padding-right: 20px;
+}
+
+.header_10 .leftnav ul{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header_10 .rightnav{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.header_10 .rightnav li:last-child{
+    padding:5px 18px;
+    border-radius: 20px;
+    border: 1px solid #cac9cc;
+    font-weight: bold;
+}
+
+.header_10 main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header_10 main h1{
+    color: #fff;
+    margin-top: 50px;
+    width: 400px;
+    line-height:2.5rem;
+    text-align: center;
+
+}
+.header_10 main p{
+    color: #fff;
+    margin-top: 10px;
+    width: 400px;
+    text-align: center;
+}
+.header_10 main button{
+    margin-top: 50px;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    color: #fff;
+    background-color:#25DAC5;
+    border: none;
+    outline: none;
+}
+.last_imggrp{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.last_imggrp div{
+display: flex;
+align-items: center;
+}
+.last_imggrp div img{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+.last_imggrp div p{
+    margin-left: 10px;
+    line-height: 2rem;
+    color: #fff;
+    width: 40%;
+}
+
+
+
+
+
+
+
+/* .header_10  end  */
