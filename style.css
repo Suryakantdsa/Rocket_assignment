@@ -30,7 +30,7 @@
   font-weight: bold;
 }
 .gray{
-    color: rgba(21, 20, 57, 0.4) ;
+    color: rgb(179, 175, 175) ;
 }
 .blue{
     color: #1E0E62;
@@ -825,9 +825,9 @@
 }
 
 .header_10 .rightnav li:last-child{
-    padding:5px 18px;
+    padding:5px 15px;
     border-radius: 20px;
-    border: 1px solid #cac9cc;
+    border: 0.5px solid #cac9cc;
     font-weight: bold;
 }
 
@@ -1060,9 +1060,9 @@ align-items: center;
     }
     .header_13 nav button{
         /* width: 100px; */
-        border-radius: 15px;
+        border-radius: 18px;
         background-color: #482BE7;
-        padding: 6px 18px;
+        padding: 8px 18px;
         color: #fff;
         border: none;
         outline: none;
@@ -1091,5 +1091,144 @@ align-items: center;
     }
 
 /* .header_13  end  */
+
+
+
+/* .header_14  start  */
+.header_14{
+    width: 100vw;
+    height:100vh;
+    background-color: #2F1893;
+    color: #fff;
+}
+.header_14 nav{
+    display: flex;
+    padding: 50px 213px;
+    justify-content: space-between;
+}
+.header_14 nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.header_14 nav ul li:last-child{
+    border-radius: 20px;
+    padding: 5px 18px;
+    background-color: #E93A7D;
+    color: #fff;
+
+}
+
+.header_14 main{
+display: flex;
+padding: 0 213px;
+justify-content: space-between;
+}
+.header_14 main .header14_desc h1{
+    width: 350px;
+    font-size: 40px;
+    line-height: 4rem;
+
+}
+.header_14 main .header14_desc p{
+    width: 220px;
+    height: 100px;
+    margin-top: 30px; 
+}
+.header_14 main .header14_desc button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #E93A7D;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+.header_14 main .Signup_box{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 32%;
+    height: 400px;
+    padding: 20px;
+    color: #1E0E62;
+    margin: 0px auto;
+    border: 1px solid;
+}
+.header_14 main .Signup_box h1{
+    margin: 20px 0;
+    text-align: center;
+}
+.header_14 main .Signup_box input[type="text"] {
+    margin: 10px auto;
+    height: 30px;
+    width: 220px;
+    border-radius: 20px;
+    border: 0.7px solid #cac9cc;
+    padding: 2px 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+.header_14 main .Signup_box label{
+    display: flex;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+.header_14 main .Signup_box label p{
+    color: gray;
+    margin-left: 5px;
+}
+.header_14 main .Signup_box .btn_signin{
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #482BE7;
+    color: #ffffff;
+    margin: 5px auto;
+    border: none;
+    outline: none;
+}
+#separator{
+    display: flex;
+    margin: 10px auto;
+    width: 240px;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+}
+#separator span{
+    width: 95px;
+    height: 0.1px;
+    border:1px solid #bebcbc;
+}
+.Signup_box .btn_signup{
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:  #1DA1F2;
+    color: #ffffff;
+    margin: 5px auto;
+    border: none;
+    outline: none; 
+}
+
+.Signup_box p:last-child{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* .header_14  end  */
 
 
